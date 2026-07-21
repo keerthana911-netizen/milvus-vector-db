@@ -2,6 +2,8 @@
 
 A containerized Milvus deployment demonstrating end-to-end vector search: schema design, embedding generation, indexing, and similarity search over natural language text.
 
+> **No live demo link** — this runs as a multi-container Docker stack (etcd + MinIO + Milvus), which isn't something free static/app hosts support. Clone the repo and run `docker-compose up` locally to try it — see [Run it](#run-it) below.
+
 ---
 
 ## What this is
